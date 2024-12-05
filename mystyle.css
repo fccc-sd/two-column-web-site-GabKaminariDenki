@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image:url(pastelgreen2.jpg);
+     background-attachment: fixed;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 1em;
+     font-weight: normal;
+     
+
+}
+
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+    background-image:url(pastelgreen2.jpg);
+    background-attachment: fixed;
+    font: small 2.5em/2em  Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+header
+{
+    height: 100px;
+    width: 910px; 
+    padding: 25px;
+    border: dotted thick rgb(37, 90, 72);
+    text-align: center;
+
+}
+
+nav
+{
+    width: 940px;
+    background-color: rgb(117, 190, 154);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+nav li
+{
+    display:inline;
+    list-style-type: none;
+    padding-right: 40px;
+    
+
+}
+nav a:link 
+{
+ color: black;
+ text-decoration: none;
+
+}
+
+nav a:visited
+{
+ color: black;
+
+}
+
+nav a:hover
+{
+    text-decoration:underline;
+}
+nav a:active
+{
+    color: rgb(5, 58, 5);
+    text-decoration: underline;
+
+}
+
+aside
+{
+    width: 300px;
+    height: auto;
+    margin: 0 30px 30px 0; 
+    background-color: rgb(30, 77, 51);
+    float: left;
+
+}
+
+section
+{
+    width: 610px;
+    height: auto;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: rgb(29, 128, 78);
+    float: right;
+
+}
+
+section li
+{
+    list-style-type: none;
+
+}
+
+footer
+{
+
+    background-color: rgb(2, 73, 34);
+    padding: 10px;
+    clear: both;
+}
