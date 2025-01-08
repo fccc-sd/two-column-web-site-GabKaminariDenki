@@ -67,7 +67,8 @@ nav a:visited
 
 nav a:hover
 {
-    text-decoration:underline;
+    text-decoration: overline;
+    
 }
 nav a:active
 {
@@ -110,4 +111,9 @@ footer
     background-color: rgb(2, 73, 34);
     padding: 10px;
     clear: both;
+}
+
+.indent
+{
+    text-indent: 20px;
 }
